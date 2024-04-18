@@ -1,0 +1,23 @@
+{
+  "name": "simple-http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.test.js",
+  "gypfile": true,
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node server.test.js",
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@perseveranza-pets/milo": "^0.2.0",
+    "bindings": "^1.5.0",
+    "node-addon-api": "^8.0.0",
+    "node-gyp": "^10.1.0"
+  }
+}
